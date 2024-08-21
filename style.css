@@ -40,7 +40,7 @@ body {
 
 .nome {
     position: absolute;
-    top: 10vh;
+    top: 40px;
     font-size: 2em;
     transform-origin: bottom center;
     z-index: 10;
