@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Loved+by+the+King&display=swap');
+
 *,
 *::after,
 *::before {
@@ -34,6 +36,21 @@ body {
 .flowers {
   position: relative;
   transform: scale(0.9);
+}
+
+.nome {
+    position: absolute;
+    top: 10vmin;
+    font-size: 2em;
+    transform-origin: bottom center;
+    z-index: 10;
+    --fl-speed: 0.8s;
+    color: white; 
+    animation-delay: 0.3s;
+    animation: blooming-leaf-right var(--fl-speed) 1.6s backwards;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .flower {
